@@ -6,9 +6,10 @@ An api using python-flask to get latest weather data by calling exteranal <a hre
   <li>Flask </li>
   <li>requests </li>
   <li>json </li>
+  <li> redis </li>
 </ul>
 <br>
-
+<strong> Install redis on local machine :</strong> <a href = "https://redis.io/topics/quickstart" > help </a> <br>
 Run : <br>
 <code> $ python api.py </code> <br>
 
