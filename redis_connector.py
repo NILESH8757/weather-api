@@ -40,21 +40,3 @@ class Cache:
 
     def get(self, k):
         return self.redis.get(k)
-
-'''
-Uncomment to test
-
-if __name__ == "__main__":
-    c = Cache()
-    c.cache("test_1", "v1")
-    c.cache("test_2", "v2")
-    c.cache("test_3", "v3")
-    print(c.get("test_1").decode('utf-8'))
-    print(c.get("test_2").decode('utf-8'))
-    print(c.get("test_3").decode('utf-8'))
-    if c.get("test_4") == None:
-        print("Key is not in cache")
-    else:
-        print(c.get("test_4").decode('utf-8'))
-
-'''
