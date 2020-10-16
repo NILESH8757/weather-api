@@ -1,7 +1,7 @@
 # weather-api
 An api using python-flask to get latest weather data by calling exteranal <a href = "https://www.weather.gov/documentation/services-web-api">api</a> of national weather service.
-<br>
-Required python modules: <br>
+<br> <br>
+<strong>Required python modules:</strong>
 <ul> 
   <li>Flask </li>
   <li>requests </li>
