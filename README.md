@@ -16,9 +16,9 @@ Open browser, visit following urls :  <br>
 <dl>
   <dt><strong>http://127.0.0.1:5000/</strong></dt>
   <dd> - home page
-  <dt><strong>http://127.0.0.1:5000/metar/<any random text here></strong></dt>
+  <dt><strong>http://127.0.0.1:5000/metar/{any random text here}</strong></dt>
   <dd>- To check working of api route</dd>
-   <dt><strong>http://127.0.0.1:5000/metar/info/<station code here></strong></dt>
+   <dt><strong>http://127.0.0.1:5000/metar/info/{station code here}</strong></dt>
   <dd>- To get latest weather data of a station</dd>
 </dl> <br>
 
